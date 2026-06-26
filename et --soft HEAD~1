@@ -1,0 +1,50 @@
+[33mcommit 864ae527d807e1917c0b0893e990a953ab49a034[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Aditya Vishwakarma <1032210697@tcetmumbai.in>
+Date:   Sat Jun 27 00:33:14 2026 +0530
+
+    multilingual: add Hindi and Marathi support
+
+.gitignore
+backend/__pycache__/main.cpython-311.pyc
+backend/config/__pycache__/__init__.cpython-311.pyc
+backend/config/__pycache__/database.cpython-311.pyc
+backend/config/__pycache__/models.cpython-311.pyc
+backend/config/__pycache__/per_question_models.cpython-311.pyc
+backend/config/__pycache__/settings.cpython-311.pyc
+backend/config/__pycache__/settings.cpython-312.pyc
+backend/embeddings/__pycache__/__init__.cpython-311.pyc
+backend/embeddings/__pycache__/engine.cpython-311.pyc
+backend/evaluator/__pycache__/__init__.cpython-311.pyc
+backend/evaluator/__pycache__/pipeline.cpython-311.pyc
+backend/llm/__pycache__/__init__.cpython-311.pyc
+backend/llm/__pycache__/client.cpython-311.pyc
+backend/llm/__pycache__/prompts.cpython-311.pyc
+backend/routers/__pycache__/__init__.cpython-311.pyc
+backend/routers/__pycache__/interview.cpython-311.pyc
+backend/routers/__pycache__/interview.cpython-312.pyc
+backend/routers/__pycache__/per_question_router.cpython-311.pyc
+backend/schemas/__pycache__/__init__.cpython-311.pyc
+backend/schemas/__pycache__/interview.cpython-311.pyc
+backend/schemas/__pycache__/interview.cpython-312.pyc
+backend/scoring/__pycache__/__init__.cpython-311.pyc
+backend/scoring/__pycache__/aggregator.cpython-311.pyc
+backend/services/__pycache__/__init__.cpython-311.pyc
+backend/services/__pycache__/database_service.cpython-311.pyc
+backend/services/__pycache__/interview_engine.cpython-311.pyc
+backend/services/__pycache__/interview_engine.cpython-312.pyc
+backend/services/__pycache__/llm_service.cpython-311.pyc
+backend/services/__pycache__/per_question_background.cpython-311.pyc
+backend/services/__pycache__/per_question_db_service.cpython-311.pyc
+backend/services/__pycache__/rag_service.cpython-311.pyc
+backend/services/__pycache__/resume_parser.cpython-311.pyc
+backend/services/__pycache__/speech_to_text.cpython-311.pyc
+backend/services/__pycache__/speech_to_text.cpython-312.pyc
+backend/services/__pycache__/text_to_speech.cpython-311.pyc
+backend/services/__pycache__/text_to_speech.cpython-312.pyc
+backend/services/__pycache__/warm_cache.cpython-311.pyc
+backend/sockets/__pycache__/__init__.cpython-311.pyc
+backend/sockets/__pycache__/handlers.cpython-311.pyc
+backend/sockets/__pycache__/handlers.cpython-312.pyc
+backend/uploads/resumes/35b1dff9435f4813b30098756afe56be_AdityaRVishwakarma_resume .pdf
+backend/uploads/resumes/9624298077514667bcc5afdd44520636_AdityaRVishwakarma_resume .pdf
+backend/uploads/resumes/d4e75ca1b6d34854a2f7219753f7dff0_AdityaRVishwakarma_resume .pdf
